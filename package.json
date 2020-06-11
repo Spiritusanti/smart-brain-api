@@ -4,7 +4,8 @@
   "description": "backend of final project",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js",
+    "devstart": "nodemon server.js"
   },
   "author": "Jacob",
   "license": "ISC",
