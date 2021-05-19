@@ -23,8 +23,11 @@ const db = knex({
 const app = express();
 
 const corsOptions = {
-    origin: "*",
+    origin: "https://ztmfinalproject.herokuapp.com/",
     optionsSuccessStatus: 200,
+    Headers: {
+        "Access-Control-Allow-Origin": "https://ztmfinalproject.herokuapp.com/"
+    }
   }
 
 
